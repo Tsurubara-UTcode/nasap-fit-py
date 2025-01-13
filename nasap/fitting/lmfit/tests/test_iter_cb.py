@@ -14,7 +14,9 @@ def test_use_for_lmfit_minimizer():
     sample = get_a_to_b_sample()
 
     objective_func = make_objective_func_for_lmfit_minimizer(
-        sample.t, sample.y, sample.simulating_func, sample.y0)
+        sample.ode_rhs, sample.t, sample.y, 
+        sample.t[0], sample.y0,
+        pass_params_as_array=False)
     # `objective_func` returns a float
 
     params = Parameters()
