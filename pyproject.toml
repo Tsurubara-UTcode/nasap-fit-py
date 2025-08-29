@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "autonasap"
+name = "nasap-fit-py"
 version = "0.2.0"
 description = "Automation tool for NASAP (Numerical Analysis of Self-Assembly Process)"
 authors = ["neji-craftsman <142223934+neji-craftsman@users.noreply.github.com>"]
