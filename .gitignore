@@ -18,6 +18,7 @@ downloads/
 eggs/
 .eggs/
 lib64/
+node_modules/
 parts/
 sdist/
 var/
